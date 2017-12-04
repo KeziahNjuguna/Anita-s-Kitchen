@@ -22,3 +22,34 @@
    padding-bottom: 30px;
    padding-left: 40px;
 }
+
+p {
+  color: white;
+}
+.lunch{
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.Breakfast{
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.Dinner{
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.fast{
+  background: url("../assets/foodtop/breakfast.jpg");
+}
