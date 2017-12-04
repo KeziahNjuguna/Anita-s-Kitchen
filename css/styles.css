@@ -32,6 +32,7 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    font-style: italic;
 }
 
 .Breakfast{
@@ -40,16 +41,24 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    font-style: italic;
 }
 
-.Dinner{
+.Dinner {
   position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    font-style: italic;
 }
 
 .fast{
   background: url("../assets/foodtop/breakfast.jpg");
+}
+.party {
+  padding-bottom: 80px;
+  padding-left: 50px;
+  background-color: #f49b42
+
 }
