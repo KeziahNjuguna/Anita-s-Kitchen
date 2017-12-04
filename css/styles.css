@@ -4,13 +4,19 @@
    padding-right: 30px;
    padding-bottom: 100px;
    padding-left: 80px;
-
+   background-image: url("../assets/backgrounds/landing.jpg");
+  image:img/logoBig.png;
 }
 .head{
   margin-top: 50%;
+  float: right;
+
+
 }
 .fast{
   width: 109%;
+  font-style: italic;
+
 }
 
 .container-fluid {
