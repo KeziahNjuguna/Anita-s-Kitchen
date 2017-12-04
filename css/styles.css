@@ -1,0 +1,21 @@
+.header{
+  background-color: #F69406;
+  padding-top: 50px;
+   padding-right: 30px;
+   padding-bottom: 100px;
+   padding-left: 80px;
+
+}
+.head{
+  margin-top: 50%;
+}
+.fast{
+  width: 109%;
+}
+
+.container-fluid {
+  padding-top: 50px;
+   padding-right: 30px;
+   padding-bottom: 30px;
+   padding-left: 40px;
+}
