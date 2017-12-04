@@ -57,8 +57,18 @@ p {
   background: url("../assets/foodtop/breakfast.jpg");
 }
 .party {
-  padding-bottom: 80px;
+  padding-bottom: 100px;
+  margin-top: 2cm
   padding-left: 50px;
   background-color: #f49b42
+}
 
+.fastfood {
+padding-left: 70px;
+align-content:left;
+
+}
+
+.fastfoodimages {
+  float: right;
 }
