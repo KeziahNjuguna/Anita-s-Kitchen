@@ -53,35 +53,38 @@ p {
     font-style: italic;
 }
 
-.fast{
-  background: url("../assets/foodtop/breakfast.jpg");
-}
 .party {
-  padding-bottom: 100px;
-  margin-top: 2cm
-  padding-left: 50px;
   background-color: #f49b42
+  width
 }
+
+.happy {
+  border-color:#edf0f4;
+  margin: auto;
+}
+
 .pad{
   padding-left: 0;
   padding-right: 0;
 }
-/*..rowy{
-  padding-top: 50%;
-  padding-bottom: 50%;
-}*/
+
 .fastfood {
-padding-left: 70px;
-align-content:left;
-
+float: right;
+width: 100px;
 }
 
-#fastfoodimages {
-  float: right;
+#fastfoodimages{
+  float: left;
+  width: 10px;
 }
+
 #drinksimages {
   display: inline;
+  float: right;
+}
+.drinks {
   float: left;
+  width: 80px;
 }
 
 .categories {}
@@ -89,11 +92,15 @@ align-content:left;
   position: absolute;
     bottom: : 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    traeliverynsform: translate(-50%, -50%);
 }
-.customers {
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+.delivery {
+  background-image: url("../assets/backgrounds/subscribe.jpg");
+}
+.menu {
+  margin-bottom: 40px;
+}
+.menupic {
+  margin: 20px;
+  background-image: url("../assets/backgrounds/foodsBg.jpg");
 }
