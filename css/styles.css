@@ -11,6 +11,9 @@
   margin-top: 30%;
   padding-left: 40%;
 }
+.heading {
+  font: white;
+}
 
 .fast{
   width: 109%;
@@ -24,7 +27,7 @@
 }
 
 p {
-  color: white;
+  color: black;
 }
 .lunch{
   position: absolute;
@@ -70,7 +73,6 @@ p {
 
 .fastfood {
 float: right;
-width: 100px;
 }
 
 #fastfoodimages{
@@ -84,7 +86,7 @@ width: 100px;
 }
 .drinks {
   float: left;
-  width: 80px;
+
 }
 
 .categories {}
@@ -99,6 +101,7 @@ width: 100px;
 }
 .menu {
   margin-bottom: 40px;
+  color: black;
 }
 .menupic {
   margin: 20px;
