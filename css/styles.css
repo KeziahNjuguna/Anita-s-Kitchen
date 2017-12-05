@@ -13,6 +13,11 @@
 }
 .heading {
   font: white;
+  align-content: center;
+}
+.header p{
+  color: white;
+  text-align: center;
 }
 
 .fast{
@@ -106,4 +111,15 @@ float: right;
 .menupic {
   margin: 20px;
   background-image: url("../assets/backgrounds/foodsBg.jpg");
+}
+.button1 {
+  background-color: grey;
+}
+.button2 {
+  background-color: #ef7f39;
+}
+.button {
+  display: block;
+  font-size: 32px;
+  padding: 40px 24px;
 }
