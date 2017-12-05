@@ -81,6 +81,7 @@ align-content:left;
 }
 #drinksimages {
   display: inline;
+  float: left;
 }
 
 .categories {}
