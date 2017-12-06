@@ -148,5 +148,12 @@ align-items: center;
 #customersandmenu {
 border: auto;
 color: black;
-padding: 40px;
+padding: 70px;
+}
+#footer {
+  background-color: #F15A29;
+  padding: 90px;
+}
+#logo_white {
+  align-items: center;
 }
