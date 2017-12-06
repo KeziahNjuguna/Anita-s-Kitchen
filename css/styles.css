@@ -23,6 +23,8 @@
 .fast{
   width: 109%;
   font-style: italic;
+  padding:1px;
+  margin:auto;
 }
 
 .container-fluid {
@@ -33,6 +35,7 @@
 
 p {
   color: black;
+  font-size: 12px
 }
 .lunch{
   position: absolute;
@@ -50,6 +53,7 @@ p {
     transform: translate(-50%, -50%);
     color: white;
     font-style: italic;
+    padding: 60px;
 }
 
 .Dinner {
@@ -61,14 +65,14 @@ p {
     font-style: italic;
 }
 
-.party {
-  background-color: #f49b42
-  width
+#party {
+  background-color: #f49b42;
+padding: 40px;
 }
 
-.happy {
+#happy {
   border-color:#edf0f4;
-  margin: auto;
+  padding: 40px;
 }
 
 .pad{
@@ -88,6 +92,7 @@ float: right;
 #drinksimages {
   display: inline;
   float: right;
+  margin-bottom: 10px
 }
 .drinks {
   float: left;
@@ -103,14 +108,28 @@ float: right;
 }
 .delivery {
   background-image: url("../assets/backgrounds/subscribe.jpg");
+  text-align: center;
+  padding: 60px;
+  color: white;
 }
 .menu {
   margin-bottom: 40px;
   color: black;
+  margin-right: 30px
+
+}
+.customers {
+  margin-:auto;
+  padding:40px;
+  border:10px solid;
+
 }
 .menupic {
-  margin: 20px;
   background-image: url("../assets/backgrounds/foodsBg.jpg");
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .button1 {
   background-color: grey;
@@ -122,4 +141,12 @@ float: right;
   display: block;
   font-size: 32px;
   padding: 40px 24px;
+}
+.customersimages {
+align-items: center;
+}
+#customersandmenu {
+border: auto;
+color: black;
+padding: 40px;
 }
