@@ -109,18 +109,16 @@ float: right;
 .delivery {
   background-image: url("../assets/backgrounds/subscribe.jpg");
   text-align: center;
-  padding: 60px;
+  padding: 115px;
   color: white;
 }
 #menu {
 color: black;
 }
-.customers {
+#customers {
   color: black;
-
-
-
 }
+
 .menupic {
   background-image: url("../assets/backgrounds/foodsBg.jpg");
   padding-left: 60px;
@@ -129,10 +127,14 @@ color: black;
   padding-bottom: 60px;
 }
 .button1 {
-  background-color: grey;
+  background-color: inherit;
+  padding: 10px 150px;
+  text-align: left;
+  margin-right: 30px;
 }
 .button2 {
-  background-color: #ef7f39;
+  background-color: #F15A29;
+  padding: 10px 100px;
 }
 .button {
   display: block;
@@ -151,7 +153,7 @@ align-content: center;
 }
 #footer {
   background-color: #F15A29;
-  padding: 90px;
+  padding: 60px;
 }
 #logo_white {
   align-items: center;
