@@ -112,16 +112,13 @@ float: right;
   padding: 60px;
   color: white;
 }
-.menu {
-  margin-bottom: 40px;
-  color: black;
-  margin-right: 30px
-
+#menu {
+color: black;
 }
 .customers {
-  margin-:auto;
-  padding:40px;
-  border:10px solid;
+  color: black;
+
+
 
 }
 .menupic {
@@ -146,9 +143,11 @@ float: right;
 align-items: center;
 }
 #customersandmenu {
-border: auto;
-color: black;
-padding: 70px;
+color:#eaedf2;
+padding: 5px;
+box-shadow:4px 4px 4px 4px ;
+margin: 95px;
+align-content: center;
 }
 #footer {
   background-color: #F15A29;
