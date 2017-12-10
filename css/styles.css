@@ -231,3 +231,6 @@ padding-right: 25%;
     padding : 10px ;
 
   }
+  #navtabs {
+    background-image: url("../assets/backgrounds/foodsBg.jpg");
+  }
