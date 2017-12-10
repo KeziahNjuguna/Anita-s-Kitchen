@@ -24,7 +24,7 @@
       </div>
 <div class="container-fluid">
   <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-3" id="happyandparty">
         <div class="row" id="party">
           <h3>Party Time</h3>
         </div>
@@ -32,12 +32,12 @@
           <h3>Happy Hour</h3>
       </div>
       </div>
-   <div class="col-md-3"><h4 class="Breakfast">Breakfast</h4><img src="assets/foodtop/breakfast.jpg" class="fast"></div>
-   <div class="col-md-3"><h4 class="lunch">Lunch</h4><img src="assets/foodtop/lunch.jpg" class="fast"></div>
-    <div class="col-md-3"><h4 class="Dinner">Diner</h4><img src="assets/foodtop/dinner.jpg" class="fast"></div>
+   <div class="col-md-3" id="Breakfast">Breakfast</div>
+   <div class="col-md-3" id="lunch">Lunch</div>
+    <div class="col-md-3" id="Dinner">Dinner</div>
 </div>
 </div>
-<div class="container">
+<div id="fastFood1">
     <div class="row">
     <div class="col-lg-6">
        <div id="fastfoodimages">
@@ -50,50 +50,74 @@
       <h4>Fast Food</h4>
       <h3>You will love our delicious fast food</h3>
         <p>Lorem ipsum dol sit amet, consectetur adipisic ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu. Ut enim ad minim venaiam, quis nostrud exercitation ullamco laboris nisis ut aliquid ex ea commado consequat.Duis aute irure dolor in re prehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Exce teur sint occaecat cupid datat non proident</p>
-        <button class="button3">VIEW GALLERY &#8594;</button>
+        <button class="button4">VIEW GALLERY &#8594;</button>
       </div>
     </div>
   </div>
-<div class="row">
-        <div class="col-lg-6">
-        <div class="drinks">
+</div>
+<div class="row" id="drinks1">
+        <div class="col-lg-6" id="drinks">
           <h3>Drinks</h3>
           <h4>We also produce delicious drinks</h4>
             <p> Lorem ipsum dol sit amet, consectetur adipisic ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu. Ut enim ad minim venaiam, quis nostrud exercitation ullamco laboris nisis ut aliquid ex ea commado consequat.Duis aute irure dolor in re prehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Exce teur sint occaecat cupid datat non proident.</p>
-          </div>
             <button class="button4">VIEW GALLERY &#8594;</button>
           </div>
-        <div class="col-lg-6">
-          <div id="drinksimages">
+        <div class="col-lg-6" id="drinksimages">
             <img src="img/drink1.jpg">
             <img src="img/drink2.jpg">
-        </div>
       </div>
     </div>
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Fast Food</a></li>
+    <li><a data-toggle="tab" href="#menu1">Drinks</a></li>
+    <li><a data-toggle="tab" href="#menu2">Chicken</a></li>
+    <li><a data-toggle="tab" href="#menu3">Rice</a></li>
+
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h3>HOME</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h3>Menu 1</h3>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h3>Menu 2</h3>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+    </div>
+    <div id="menu3" class="tab-pane fade">
+      <h3>Menu 3</h3>
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </div>
+  </div>
 </div>
 
+</body>
+</html>
 
 
-    <div class="container">
-     <div class="menupic">
-     <div class="menu">
-     <div class="row">
-    <div class="col-md-3">Fast Food</div>
-    <div class="col-md-3">Drinks </div>
-    <div class="col-md-3">Chicken</div>
-    <div class="col-md-3">Rice</div>
-  </div>
-    </div>
-  <div class="row">
-    <div class="col-md-4"><h4 class="Chicken Burger">Chicken Burger</h4><img src="assets/fastfood/chickenBurger.jpg" class="categories"></div>
-    <div class="col-md-4"><h4 class="Beef Burger">Beef Burger"</h4><img src="assets/fastfood/beefBurger.jpg" class="categories"></div>
-    <div class="col-md-4"><h4 class="Chicken Pizza">Chicken Pizza</h4><img src="assets/fastfood/chickenPizza.jpg" class="categories"></div>
-    </div>
-   </div>
-   </div>
+
    <div class="container" id="customersandmenu">
        <div class="row">
-      <div class="col-md-8" id="customers">
+      <div class="col-md-8" style="border-right: 1px solid grey" id="customers">
        <h2>Our Happy Customers</h2>
      <h3>George Richard</h3>
      <p>Great food!Menu is awesome,there foods are not only great <br>but
@@ -114,28 +138,17 @@
           <button class="button1">Your email</button>
           <button class="button2">subscribe</button>
           </div>
-          <div class="container" id="footer">
+          <div id="footer">
+
           <h1><img src="assets/footerlogos/logo_white.png"> MENU</h1>
           <p>That is what we are </p>
           <img src="assets/footerlogos/facebook.png"> <img src="assets/footerlogos/twitter.png"> <img src="assets/footerlogos/pinterest.png">
 
-            <footer>
-              <p>2016 Menu Restaurant</p>
-            </footer>
-            </div>
+  </div>
+   <footer>
+    <p>2017 Menu Restaurant</p>
+  </footer>
 
-
-
-
-
-
-
-
-
-
-
-</div>
-</div>
 
   </body>
 </htm>
