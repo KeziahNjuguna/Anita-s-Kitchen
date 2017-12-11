@@ -1,18 +1,16 @@
 .header{
   background-color: #F69406;
-  padding: 10px;
   background-image: url("../assets/backgrounds/landing.jpg");
   align-content: center;
+  padding: 50px;
 }
 #head{
-  margin-top: 30%;
-  padding-left: 40%;
-}
-.heading {
+  text-align: center;
 }
 .header p{
   color: white;
   text-align: center;
+  font-size: 40px;
 }
 
 .fast{
@@ -29,14 +27,17 @@
 }
 
 p {
-  color: black;
-  font-size: 12px
+
+  font-size: 12px;
 }
 #lunch{
   background-image: url("../assets/foodtop/lunch.jpg");
   color: white;
   text-align: center;
   font-style: italic;
+  padding: 40px;
+  font-size: 30px;
+  background-repeat: no-repeat;
 }
 
 #Breakfast{
@@ -44,21 +45,10 @@ p {
   color: white;
   text-align: center;
   font-style: italic;
+  font-size: 30px;
+  padding:40px;
+  background-repeat: no-repeat;
 }
-
-#fastFood1 {
-  padding: 70px;
-  margin: 20px;
-}
-#happyandparty {
-  padding: 20px
-}
-#drinks1 {
-  padding-top: : 30px;
-  margin-top: 10px;
-
-}
-
 
 #Dinner {
   background-image: url("../assets/foodtop/dinner.jpg");
@@ -66,16 +56,44 @@ p {
   text-align: center;
   font-style: italic;
   padding: 40px;
+  font-size: 30px;
+  background-repeat: no-repeat;
 }
+#meals {
+text-align: center;
+}
+#food {
+font-size: 35px;
+
+}
+
+
+#fastFood1 {
+  margin: 65px;
+}
+/*#happyandparty {
+  padding: 20px
+}*/
+#drinks1 {
+  padding-top: : 30px;
+  margin: 50px;
+}
+  #drinkshead {
+    font-size:30px;
+  }
+
+
+
 
 #party {
   background-color: #f49b42;
-padding-left: 40px;
+  height: 105px;
 }
 
 #happy {
   border-color:#edf0f4;
-  padding: 30px;
+  background-color: #dee0e2;
+  height: 105px;
 }
 
 .pad{
@@ -85,24 +103,38 @@ padding-left: 40px;
 
 .fastfood {
 float: right;
+padd
+}
+#fastFood1 {
+  padding: 85px;
 }
 
 #fastfoodimages {
-  width: 10px;
-  box-shadow:4px 4px 4px 4px grey;
+border-style: groove;
+border-color: #ccc
+padding: 30px;
+}
+ #fastfoodimages :hover {
+    background-color:#f49b42;
+
 }
 
 #drinksimages {
   display: inline;
-box-shadow:4px 4px 4px 4px grey;
-
-
+padding: 30px;
+padding-left: 20px;
+  border-style: groove;
 
 }
 #drinks {
 margin-top: 60px;
-
+float: left;
 }
+#drinks1 {
+  margin: 60px;
+  padding: 65px;
+}
+
 
 .categories {}
 .Chicken Burger {
@@ -115,14 +147,24 @@ margin-top: 60px;
   background-image: url("../assets/backgrounds/subscribe.jpg");
   text-align: center;
   padding: 115px;
+  padding-left: 50px;
+  padding-right: 50px;
   color: white;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 #menu {
-color: black;
+color: #F15A29;
+margin-top: 30px;
+font-size: 30px;
+}
+#members {
+  color: black;
+  margin-top: 30px;
 }
 #customers {
   color: black;
+  text-align: center;
 }
 #background {
   background-color: white;
@@ -138,10 +180,23 @@ color: black;
   padding: 10px 150px;
   text-align: left;
   margin-right: 30px;
+  color: #e8eaed;
+}
+.button1 :hover {
+    background-color:#f49b42;
+
 }
 .button2 {
   background-color: #F15A29;
   padding: 10px 100px;
+}
+.button2 :hover {
+    background-color:#f49b42;
+
+}
+.button :hover {
+    background-color:#f49b42;
+
 }
 .button {
   display: block;
@@ -151,8 +206,12 @@ color: black;
 .button4 {
   color: #F15A29;
 }
+.button4 :hover {
+    background-color:#f49b42;
+
+}
 .customersimages {
-align-items: center;
+text-align:center;
 }
 #customersandmenu {
 color:#eaedf2;
@@ -163,11 +222,10 @@ align-content: center;
 }
 #footer {
   background-color: #F15A29;
+  text-align: center;
   color: white;
-  width: 100%;
-  margin-right: 0;
-  margin-left: 0;
 
+  align:center;
 }
 
 #logo_white {
@@ -185,8 +243,6 @@ footer {
     color: white;
 }
 
-
-}
 .icon{z-index:1000000;
   font-weight:bold;
   font-size:0.8em;
@@ -209,28 +265,60 @@ footer {
   margin-top:5px;
   margin:0 auto;
 }
+.icon:hover {
+    background-color:#f49b42;
+
+}
 #foot{
 padding-left: 25%;
 padding-right: 25%;
 
 }
-#panel{
-  height: 500px;
-  background-image: url("../images/foodsBg.jpg");
-  padding: 50px;
-      margin: 0px auto;
-      background-repeat: no-repeat;
-      background-size: cover;
+
+
+
+
+#drinks1 {
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: :10px;
+
 }
-#tabs{
-		background-size: cover;
-		background-repeat: no-repeat;
-		padding: 50px;
-    margin: 0px auto;
+#happycustomers {
+  color: #F15A29;
+}
+
+#foods{
+      background-image: url("../assets/backgrounds/foodsBg.jpg");
+      background-size: cover;
+      padding:200px;
+      background-position: center;
+
+     margin: ;
+      height:700px;
+    }
+    #food2{
+    padding : 0px;
+    margin:0px;
+    background-color: white;
+
+
+   }
+   #burger {
+     color: #F15A29;
+     font-size: 20px;
+   }
+
+   #reco {
+     text-align: center;
+   }
+   @media screen and (min-width: 480px) and (max-width: 767px) {
     body {
-    padding : 10px ;
+
+}
+@media screen and (min-width: 768px) {
+  body {
 
   }
-  #navtabs {
-    background-image: url("../assets/backgrounds/foodsBg.jpg");
-  }
+}
+re
